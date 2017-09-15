@@ -14,10 +14,10 @@ $EM_CONF[$_EXTKEY] = [
 	'version' => '1.0.3',
 	'constraints' => [
 		'depends' => [
-			'php' => '5.5.0-0.0.0',
+			'php' => '>=5.5.0',
 			'typo3' => '7.6.0-8.99.99',
-			'formhandler' => '2.1.0-0.0.0',
-			'authcode' => '0.2.0-0.0.0',
+			'formhandler' => '',
+			'authcode' => '',
 		],
 		'conflicts' => [],
 		'suggests' => [
